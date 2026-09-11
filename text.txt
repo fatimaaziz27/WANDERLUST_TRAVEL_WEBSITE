@@ -1,1 +1,1617 @@
+WANDERLUST TRAVEL
+ADVANCED HTML & CSS UPGRADE
 
+The existing Wanderlust website will become a larger MULTI-PAGE website.
+
+You will keep your current Home page and add new pages and advanced layouts.
+
+==================================================
+NEW PROJECT 4 CONCEPT
+=====================
+
+Instead of making another single-page website, turn Wanderlust into a MULTI-PAGE WEBSITE.
+
+Example:
+
+WANDERLUST
+|
+|--- Home
+|--- Destinations
+|--- Packages
+|--- Dashboard
+|--- Contact
+
+The navigation should allow users to move between different HTML pages.
+
+==================================================
+MULTI-PAGE WEBSITE
+==================
+
+Create:
+
+index.html
+
+destinations.html
+
+packages.html
+
+dashboard.html
+
+contact.html
+
+Your project can eventually have:
+
+WANDERLUST_TRAVEL/
+|
+|-- index.html
+|-- destinations.html
+|-- packages.html
+|-- dashboard.html
+|-- contact.html
+|
+|-- styles.css
+|-- dashboard.css
+|
+|-- images/
+|   |-- hero.jpg
+|   |-- paris.jpg
+|   |-- bali.jpg
+|   |-- dubai.jpg
+|   |-- switzerland.jpg
+|   |-- maldives.jpg
+|   |-- tokyo.jpg
+|   |-- ...
+|
+|-- README.md
+
+==================================================
+
+1. MULTI-PAGE NAVIGATION
+   ==================================================
+
+Your navbar should now contain links to different pages.
+
+Example structure:
+
+Home
+Destinations
+Packages
+Dashboard
+Contact
+
+Instead of using:
+
+<a href="#destinations">
+
+Use:
+
+<a href="destinations.html">
+
+For the dashboard:
+
+<a href="dashboard.html">
+
+For contact:
+
+<a href="contact.html">
+
+IMPORTANT:
+
+A link like:
+
+#destinations
+
+moves to a section on the same page.
+
+A link like:
+
+destinations.html
+
+opens another HTML page.
+
+==================================================
+2. KEEP THE SAME WANDERLUST DESIGN
+==================================
+
+All pages should feel like they belong to the same website.
+
+Keep consistent:
+
+* Logo
+* Navbar
+* Fonts
+* Colors
+* Buttons
+* Spacing
+* Footer
+* General design style
+
+For example:
+
+index.html
+|
+|--- same navbar
+|--- same color theme
+|--- same footer
+
+destinations.html
+|
+|--- same navbar
+|--- same color theme
+|--- same footer
+
+packages.html
+|
+|--- same navbar
+|--- same color theme
+|--- same footer
+
+dashboard.html
+|
+|--- dashboard layout
+|--- same Wanderlust branding
+
+==================================================
+3. PAGE 1 — HOME
+================
+
+Keep your current:
+
+index.html
+
+This remains your Home page.
+
+Do NOT rebuild it.
+
+You can improve it gradually.
+
+Current sections can remain:
+
+* Navbar
+* Hero
+* Search box
+* Popular Destinations
+* Why Travel With Us
+* About
+* Travel Packages
+* Special Offer
+* Travel Experiences
+* Reviews
+* Newsletter
+* Contact
+* Footer
+
+==================================================
+4. PAGE 2 — DESTINATIONS
+========================
+
+Create:
+
+destinations.html
+
+Heading:
+
+EXPLORE DESTINATIONS
+
+Subtitle:
+
+Discover beautiful places, unforgettable experiences, and amazing cultures around the world.
+
+Create destination cards for:
+
+Paris
+France
+
+Bali
+Indonesia
+
+Dubai
+United Arab Emirates
+
+Switzerland
+Europe
+
+Maldives
+Indian Ocean
+
+Tokyo
+Japan
+
+Each card should contain:
+
+* Image
+* Destination name
+* Country
+* Short description
+* Explore button
+
+Example:
+
+Paris
+
+France
+
+Experience romantic streets, historic architecture, world-famous cuisine, and the beauty of the Eiffel Tower.
+
+Explore Destination
+
+You can reuse the destination content from your current Home page.
+
+==================================================
+5. PAGE 3 — PACKAGES
+====================
+
+Create:
+
+packages.html
+
+Heading:
+
+TRAVEL PACKAGES
+
+Subtitle:
+
+Choose the perfect package for your next adventure.
+
+Package 1:
+
+Bali Escape
+
+7 Days / 6 Nights
+
+$899
+
+Includes:
+
+* Hotel Accommodation
+* Airport Transfer
+* Daily Breakfast
+* Island Tour
+* Professional Guide
+
+Button:
+
+View Package
+
+Badge:
+
+BEST SELLER
+
+Package 2:
+
+Swiss Adventure
+
+8 Days / 7 Nights
+
+$1,499
+
+Includes:
+
+* 4-Star Hotel
+* Airport Transfer
+* Mountain Excursion
+* Scenic Train Ride
+* Professional Guide
+
+Button:
+
+View Package
+
+Badge:
+
+POPULAR
+
+Package 3:
+
+Dubai Experience
+
+5 Days / 4 Nights
+
+$799
+
+Includes:
+
+* Luxury Hotel
+* Airport Transfer
+* Desert Safari
+* City Tour
+* Burj Khalifa Visit
+
+Button:
+
+View Package
+
+Badge:
+
+LIMITED OFFER
+
+Use CSS positioning for the badges.
+
+==================================================
+6. PAGE 4 — TRAVEL MANAGEMENT DASHBOARD
+=======================================
+
+Create:
+
+dashboard.html
+
+THIS IS THE MAIN PART OF PROJECT 4.
+
+The dashboard should look different from the public travel website.
+
+Use a dashboard-style layout.
+
+Basic structure:
+
+---
+
+| SIDEBAR       | DASHBOARD                       |
+|               |                                |
+| WANDERLUST    | Welcome back                   |
+|               |                                |
+| Dashboard     | Statistics                     |
+| Bookings      |                                |
+| Destinations  | [Card] [Card] [Card] [Card]   |
+| Packages      |                                |
+| Customers     |                                |
+| Messages      | Recent Bookings               |
+| Settings      |                                |
+|               | [ TABLE                        |
+| Logout        |   TABLE                        |
+|               |   TABLE ]                      |
+--------------------------------------------------
+
+==================================================
+7. SIDEBAR
+==========
+
+Create a sidebar containing:
+
+WANDERLUST
+
+Dashboard
+
+Bookings
+
+Destinations
+
+Packages
+
+Customers
+
+Messages
+
+Settings
+
+Logout
+
+You can add simple text icons or symbols if you want.
+
+Do not use JavaScript for the sidebar.
+
+Practice:
+
+* Flexbox
+* Positioning
+* Height
+* Width
+* Padding
+* Hover effects
+* Active navigation item
+
+==================================================
+8. DASHBOARD HEADER
+===================
+
+Main heading:
+
+Dashboard
+
+Small text:
+
+Welcome back! Here's what's happening with your travel business.
+
+Add a profile area:
+
+Admin
+
+Travel Manager
+
+You can create a simple profile card using HTML and CSS.
+
+==================================================
+9. STATISTICS
+=============
+
+Create four statistic cards.
+
+CARD 1
+
+Total Bookings
+
+1,248
+
++12.5% this month
+
+CARD 2
+
+Active Trips
+
+86
+
+Currently available
+
+CARD 3
+
+Customers
+
+3,542
+
++8.2% this month
+
+CARD 4
+
+Revenue
+
+$284,500
+
++15.4% this month
+
+Desktop:
+
+[ Card ] [ Card ] [ Card ] [ Card ]
+
+Tablet:
+
+[ Card ] [ Card ]
+[ Card ] [ Card ]
+
+Mobile:
+
+[ Card ]
+[ Card ]
+[ Card ]
+[ Card ]
+
+Practice:
+
+* CSS Grid
+* Flexbox
+* Responsive design
+* Card design
+
+==================================================
+10. TABS-STYLE SECTION
+======================
+
+Create a visual tab navigation:
+
+Overview
+Bookings
+Customers
+Destinations
+
+Example:
+
+[ Overview ] [ Bookings ] [ Customers ] [ Destinations ]
+
+Make:
+
+Overview
+
+the active tab.
+
+IMPORTANT:
+
+The tabs do NOT need to actually change content.
+
+You are practicing the visual design using HTML and CSS.
+
+Later, when you learn JavaScript, you can make them functional.
+
+==================================================
+11. RECENT BOOKINGS TABLE
+=========================
+
+Heading:
+
+Recent Bookings
+
+Create a table.
+
+Columns:
+
+Customer
+
+Destination
+
+Date
+
+Travelers
+
+Package
+
+Status
+
+Data:
+
+Emma Wilson
+Bali
+Aug 12, 2026
+2
+Bali Escape
+Confirmed
+
+Daniel Smith
+Dubai
+Aug 15, 2026
+4
+Dubai Experience
+Pending
+
+Sophia Brown
+Paris
+Aug 18, 2026
+2
+Paris Explorer
+Confirmed
+
+Michael Lee
+Switzerland
+Aug 21, 2026
+3
+Swiss Adventure
+Cancelled
+
+Olivia Davis
+Maldives
+Aug 25, 2026
+2
+Maldives Escape
+Confirmed
+
+HTML elements to practice:
+
+<table>
+
+<thead>
+
+<tbody>
+
+<tr>
+
+<th>
+
+<td>
+
+==================================================
+12. STATUS BADGES
+=================
+
+Instead of plain text, create visual badges.
+
+Confirmed
+
+Pending
+
+Cancelled
+
+Example idea:
+
+[ CONFIRMED ]
+
+[ PENDING ]
+
+[ CANCELLED ]
+
+Each status should have its own visual appearance.
+
+Practice:
+
+* Border radius
+* Padding
+* Font size
+* Font weight
+* Background
+* Text color
+
+==================================================
+13. UPCOMING TRIPS
+==================
+
+Create a section:
+
+Upcoming Trips
+
+Create 3 cards.
+
+Bali Escape
+
+August 12, 2026
+
+7 Days
+
+24 Bookings
+
+View Details
+
+Swiss Adventure
+
+August 21, 2026
+
+8 Days
+
+18 Bookings
+
+View Details
+
+Dubai Experience
+
+August 28, 2026
+
+5 Days
+
+31 Bookings
+
+View Details
+
+Use cards and images.
+
+==================================================
+14. CUSTOMER CARDS
+==================
+
+Create a small customer section.
+
+Heading:
+
+Recent Customers
+
+Customer 1:
+
+Emma Wilson
+
+[emma@example.com](mailto:emma@example.com)
+
+Bali Traveler
+
+Customer 2:
+
+Daniel Smith
+
+[daniel@example.com](mailto:daniel@example.com)
+
+Dubai Traveler
+
+Customer 3:
+
+Sophia Brown
+
+[sophia@example.com](mailto:sophia@example.com)
+
+Paris Traveler
+
+Practice:
+
+* Flexbox
+* Profile image
+* Text alignment
+* Card spacing
+
+==================================================
+15. ADD NEW BOOKING FORM
+========================
+
+Create a section:
+
+Add New Booking
+
+Fields:
+
+Customer Name
+
+Input
+
+Email Address
+
+Input
+
+Destination
+
+Dropdown:
+
+* Paris
+* Bali
+* Dubai
+* Switzerland
+* Maldives
+* Tokyo
+
+Travel Date
+
+Date input
+
+Number of Travelers
+
+Number input
+
+Package
+
+Dropdown:
+
+* Bali Escape
+* Swiss Adventure
+* Dubai Experience
+
+Special Requests
+
+Textarea
+
+Button:
+
+Create Booking
+
+The form does NOT need to actually work.
+
+You are practicing:
+
+HTML forms
++
+CSS form styling
+
+==================================================
+16. DETAILED FORM STYLING
+=========================
+
+Practice styling:
+
+* Labels
+* Inputs
+* Select
+* Textarea
+* Buttons
+* Placeholder
+* Focus state
+* Borders
+* Border radius
+* Padding
+* Spacing
+
+When an input is selected, create a visible focus effect.
+
+For example:
+
+Input normally:
+
+[________________________]
+
+Input focused:
+
+[________________________]
+
+with a different border appearance.
+
+Do this using CSS.
+
+==================================================
+17. CSS POSITIONING
+===================
+
+Project 4 should give you more practice with:
+
+position: relative;
+
+position: absolute;
+
+position: sticky;
+
+Use positioning for:
+
+A. Popular badge
+
+Place:
+
+BEST SELLER
+
+over a package image.
+
+B. Notification badge
+
+Example:
+
+Messages   3
+
+C. Profile status
+
+A small online indicator next to a profile image.
+
+D. Sidebar
+
+Experiment with keeping the sidebar visible while the main dashboard content scrolls.
+
+==================================================
+18. RESPONSIVE DASHBOARD
+========================
+
+Desktop:
+
+Sidebar stays on the left.
+
+Main dashboard appears on the right.
+
+Example:
+
+---
+
+| Sidebar | Main Content                       |
+|         |                                    |
+|         | Statistics                         |
+|         |                                    |
+|         | [1] [2] [3] [4]                    |
+|         |                                    |
+|         | Table                              |
+------------------------------------------------
+
+Tablet:
+
+Sidebar becomes smaller or changes layout.
+
+Statistics:
+
+[1] [2]
+[3] [4]
+
+Mobile:
+
+The dashboard should become one column.
+
+Example:
+
+WANDERLUST
+
+Dashboard
+
+[ Total Bookings ]
+
+[ Active Trips ]
+
+[ Customers ]
+
+[ Revenue ]
+
+Recent Bookings
+
+The table may become horizontally scrollable.
+
+Practice:
+
+overflow-x: auto;
+
+==================================================
+19. CONTACT PAGE
+================
+
+Create:
+
+contact.html
+
+Heading:
+
+LET'S PLAN YOUR TRIP
+
+Text:
+
+Have a destination in mind? Tell us about your dream vacation and our travel experts will help you plan it.
+
+Contact information:
+
+Address:
+
+25 Adventure Street
+Downtown
+
+Phone:
+
++1 (555) 456-7890
+
+Email:
+
+[hello@wanderlust.com](mailto:hello@wanderlust.com)
+
+Opening Hours:
+
+Monday – Friday
+9:00 AM – 6:00 PM
+
+Saturday
+10:00 AM – 4:00 PM
+
+Form:
+
+Full Name
+
+Email Address
+
+Destination
+
+Travel Date
+
+Number of Travelers
+
+Message
+
+Button:
+
+Send Inquiry
+
+==================================================
+20. NAVIGATION BETWEEN PAGES
+============================
+
+Every page should have a navbar.
+
+Example:
+
+Home
+Destinations
+Packages
+Dashboard
+Contact
+
+Links:
+
+Home:
+
+index.html
+
+Destinations:
+
+destinations.html
+
+Packages:
+
+packages.html
+
+Dashboard:
+
+dashboard.html
+
+Contact:
+
+contact.html
+
+This means the user can move around the website without JavaScript.
+
+==================================================
+21. ACTIVE NAVIGATION
+=====================
+
+On each page, show which page the user is currently visiting.
+
+Example:
+
+If the user is on:
+
+destinations.html
+
+then:
+
+Destinations
+
+should look different from the other links.
+
+You can use:
+
+* Different color
+* Underline
+* Background
+* Border
+* Font weight
+
+Practice CSS classes.
+
+==================================================
+22. CSS VARIABLES
+=================
+
+Create a central color system.
+
+Example:
+
+:root {
+
+```
+--primary: #0F766E;
+
+--secondary: #14B8A6;
+
+--accent: #F59E0B;
+
+--dark: #0F172A;
+
+--light: #F8FAFC;
+
+--white: #FFFFFF;
+```
+
+}
+
+Use these variables throughout the project.
+
+Do not repeatedly write the same color everywhere if you can use a variable.
+
+==================================================
+23. HOVER EFFECTS
+=================
+
+Add hover effects to:
+
+Navbar links
+
+Buttons
+
+Destination cards
+
+Package cards
+
+Statistic cards
+
+Sidebar links
+
+Table rows
+
+Form buttons
+
+Keep animations subtle.
+
+Practice:
+
+transition
+
+transform
+
+box-shadow
+
+background changes
+
+==================================================
+24. FORM ACCESSIBILITY
+======================
+
+Use proper labels.
+
+Instead of only:
+
+<input placeholder="Enter name">
+
+Use:
+
+<label>Customer Name</label>
+
+<input placeholder="Enter customer name">
+
+Use meaningful input types:
+
+email
+
+date
+
+number
+
+text
+
+This will improve your HTML skills.
+
+==================================================
+25. HTML SEMANTIC STRUCTURE
+===========================
+
+Start using semantic HTML more consistently.
+
+Use:
+
+<header>
+
+<nav>
+
+<main>
+
+<section>
+
+<article>
+
+<footer>
+
+Avoid putting the entire website inside random divs when a semantic element makes more sense.
+
+==================================================
+26. PROJECT FOLDER STRUCTURE
+============================
+
+Recommended:
+
+WANDERLUST_TRAVEL/
+
+```
+index.html
+
+destinations.html
+
+packages.html
+
+dashboard.html
+
+contact.html
+
+styles.css
+
+dashboard.css
+
+images/
+```
+
+You can add more CSS files later if necessary.
+
+==================================================
+27. WHAT YOU ARE LEARNING
+=========================
+
+Project 4 must cover these topics:
+
+1. Dashboard-style layouts
+
+2. Sidebar navigation
+
+3. Tables
+
+4. Forms
+
+5. Tabs-style sections
+
+6. Status badges
+
+7. Statistics
+
+8. Cards
+
+9. Complex responsive behavior
+
+10. CSS positioning
+
+11. Detailed form styling
+
+12. Multi-page navigation
+
+13. Active navigation states
+
+14. Semantic HTML
+
+15. CSS variables
+
+16. Advanced responsive layouts
+
+==================================================
+28. BUILDING ORDER
+==================
+
+Do NOT build everything at once.
+
+STEP 1
+
+Keep your existing Wanderlust Home page.
+
+STEP 2
+
+Create:
+
+dashboard.html
+
+STEP 3
+
+Create the sidebar.
+
+STEP 4
+
+Create the dashboard header.
+
+STEP 5
+
+Create statistics cards.
+
+STEP 6
+
+Create tabs-style navigation.
+
+STEP 7
+
+Create bookings table.
+
+STEP 8
+
+Add status badges.
+
+STEP 9
+
+Create upcoming trip cards.
+
+STEP 10
+
+Create customer cards.
+
+STEP 11
+
+Create booking form.
+
+STEP 12
+
+Make dashboard responsive.
+
+STEP 13
+
+Create:
+
+destinations.html
+
+STEP 14
+
+Create:
+
+packages.html
+
+STEP 15
+
+Create:
+
+contact.html
+
+STEP 16
+
+Connect every page using the navbar.
+
+STEP 17
+
+Add active navigation styles.
+
+STEP 18
+
+Test desktop.
+
+STEP 19
+
+Test tablet.
+
+STEP 20
+
+Test mobile.
+
+STEP 21
+
+Clean your HTML and CSS.
+
+STEP 22
+
+Update README.md.
+
+STEP 23
+
+Push everything to GitHub.
+
+==================================================
+29. RESPONSIVE BREAKPOINTS
+==========================
+
+You can experiment with breakpoints such as:
+
+Desktop:
+
+1200px and above
+
+Tablet:
+
+768px – 1199px
+
+Mobile:
+
+Below 768px
+
+You don't have to use these exact values.
+
+The important thing is that your layout should respond correctly to different screen sizes.
+
+==================================================
+30. BONUS CHALLENGES
+====================
+
+Only do these after completing the main project.
+
+BONUS 1
+
+Create a CSS-only hamburger menu.
+
+BONUS 2
+
+Create a notification badge.
+
+BONUS 3
+
+Create an online status indicator.
+
+BONUS 4
+
+Make the sidebar sticky.
+
+BONUS 5
+
+Make the table horizontally scrollable on mobile.
+
+BONUS 6
+
+Create a better active tab design.
+
+BONUS 7
+
+Create hover effects for table rows.
+
+BONUS 8
+
+Create a "20% OFF" circular badge.
+
+BONUS 9
+
+Create a CSS-only dropdown navigation.
+
+BONUS 10
+
+Create a polished empty-state card:
+
+No bookings found.
+
+Start by creating your first booking.
+
+==================================================
+31. IMPORTANT RULES
+===================
+
+RULE 1:
+
+HTML + CSS only.
+
+RULE 2:
+
+Do not copy complete templates.
+
+RULE 3:
+
+Do not ask for complete code immediately when you get stuck.
+
+Try first.
+
+RULE 4:
+
+If something doesn't work, send me your code and I will explain what is wrong.
+
+RULE 5:
+
+I will guide you without replacing your entire project unless you specifically ask for the complete solution.
+
+RULE 6:
+
+Keep your existing Wanderlust project.
+
+Do not restart from zero.
+
+RULE 7:
+
+Every new project should introduce new concepts.
+
+RULE 8:
+
+Don't spend weeks making one project perfect.
+
+The goal is learning.
+
+==================================================
+32. FINAL PROJECT STRUCTURE
+===========================
+
+When Project 4 is complete, your website should look roughly like:
+
+WANDERLUST TRAVEL
+
+PUBLIC WEBSITE
+
+```
+Home
+    |
+    |--- Hero
+    |--- Destinations
+    |--- Packages
+    |--- About
+    |--- Reviews
+    |--- Contact
+
+
+Destinations
+    |
+    |--- Paris
+    |--- Bali
+    |--- Dubai
+    |--- Switzerland
+    |--- Maldives
+    |--- Tokyo
+
+
+Packages
+    |
+    |--- Bali Escape
+    |--- Swiss Adventure
+    |--- Dubai Experience
+
+
+Contact
+    |
+    |--- Contact Information
+    |--- Travel Inquiry Form
+```
+
+TRAVEL MANAGEMENT
+
+```
+Dashboard
+    |
+    |--- Sidebar
+    |
+    |--- Statistics
+    |
+    |--- Tabs
+    |
+    |--- Recent Bookings Table
+    |
+    |--- Status Badges
+    |
+    |--- Upcoming Trips
+    |
+    |--- Customers
+    |
+    |--- Add Booking Form
+```
+
+==================================================
+33. WHAT "DONE" MEANS
+=====================
+
+Project 4 is complete when:
+
+[ ] Existing Home page still works
+
+[ ] Dashboard page created
+
+[ ] Sidebar created
+
+[ ] Dashboard statistics created
+
+[ ] Tabs-style navigation created
+
+[ ] Bookings table created
+
+[ ] Status badges created
+
+[ ] Upcoming trip cards created
+
+[ ] Customer cards created
+
+[ ] Booking form created
+
+[ ] Form styling completed
+
+[ ] Dashboard is responsive
+
+[ ] Destinations page created
+
+[ ] Packages page created
+
+[ ] Contact page created
+
+[ ] Navbar connects all pages
+
+[ ] Active page navigation added
+
+[ ] CSS variables used
+
+[ ] Hover effects added
+
+[ ] Mobile layout checked
+
+[ ] Tablet layout checked
+
+[ ] Desktop layout checked
+
+[ ] HTML cleaned
+
+[ ] CSS cleaned
+
+[ ] README updated
+
+[ ] Changes pushed to GitHub
+
+==================================================
+34. YOUR LEARNING PATH
+======================
+
+PROJECT 1
+
+Coffee Shop Landing Page
+
+Main focus:
+
+* Basic HTML
+* Basic CSS
+* Flexbox
+* Grid
+* Cards
+* Responsive design
+
+PROJECT 2
+
+FitZone Gym & Fitness
+
+Main focus:
+
+* Pricing cards
+* Forms
+* Cards
+* Positioning
+* Responsive layouts
+
+PROJECT 3
+
+Wanderlust Travel
+
+Main focus:
+
+* Large multi-section website
+* Destination cards
+* Travel packages
+* Testimonials
+* Forms
+* More advanced responsive design
+
+PROJECT 4
+
+Wanderlust Travel — Advanced Upgrade
+
+Main focus:
+
+* Multi-page website
+* Dashboard
+* Sidebar
+* Tables
+* Forms
+* Tabs
+* Status badges
+* Statistics
+* Cards
+* Positioning
+* Complex responsive behavior
+
+==================================================
+FINAL GOAL
+==========
+
+Do not think:
+
+"I am just making another website."
+
+Think:
+
+"I am using one project to learn different real-world HTML and CSS layouts."
+
+Your Wanderlust project will gradually grow from:
+
+ONE LANDING PAGE
+
+into:
+
+A COMPLETE MULTI-PAGE TRAVEL WEBSITE + TRAVEL MANAGEMENT DASHBOARD.
+
+After Project 4 is finished, we can move to Project 5 and introduce a completely different type of interface while continuing to use HTML and CSS only.
