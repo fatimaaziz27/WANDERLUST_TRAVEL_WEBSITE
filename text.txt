@@ -52,6 +52,9 @@ WANDERLUST_TRAVEL/
 |-- styles.css
 |-- dashboard.css
 |
+
+
+
 |-- images/
 |   |-- hero.jpg
 |   |-- paris.jpg
