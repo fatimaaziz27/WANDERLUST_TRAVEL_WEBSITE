@@ -8,15 +8,6 @@ A modern and responsive travel website designed to showcase destinations, travel
 
 The website provides a travel-focused interface where users can explore popular destinations, view travel packages, read customer reviews, learn about the travel service, and find booking information.
 
-## How to Run
-
-1. Clone or download the repository.
-2. Open the project folder.
-3. Open `index.html` in your browser.
-4. Explore the website.
-
-No additional installation is required.
-
 ## Learning Objectives
 
 This project helps practice:
