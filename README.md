@@ -8,24 +8,6 @@ A modern and responsive travel website designed to showcase destinations, travel
 
 The website provides a travel-focused interface where users can explore popular destinations, view travel packages, read customer reviews, learn about the travel service, and find booking information.
 
-## Learning Objectives
-
-This project helps practice:
-
-* HTML structure
-* CSS styling
-* Responsive web design
-* Flexbox
-* CSS Grid
-* Navigation design
-* Hero sections
-* Cards and layouts
-* Forms
-* Buttons
-* Website sections
-* Responsive layouts
-* Frontend UI design
-
 ## Purpose
 
 This project was created to improve frontend development skills by building a complete travel website from the ground up.
