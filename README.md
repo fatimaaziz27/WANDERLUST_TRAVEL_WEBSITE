@@ -14,18 +14,6 @@ This project was created to improve frontend development skills by building a co
 
 It combines multiple website sections into one responsive and visually organized travel experience.
 
-## Future Improvements
-
-* Add JavaScript interactions
-* Make the search feature functional
-* Add working booking functionality
-* Add individual destination pages
-* Add package detail pages
-* Connect the website to a backend
-* Add database functionality
-* Add user authentication
-* Add real booking functionality
-
 ## Author
 
 **Fatima Aziz**
