@@ -13,9 +13,3 @@ The website provides a travel-focused interface where users can explore popular 
 This project was created to improve frontend development skills by building a complete travel website from the ground up.
 
 It combines multiple website sections into one responsive and visually organized travel experience.
-
-## Author
-
-**Fatima Aziz**
-
-GitHub: [fatimaaziz27](https://github.com/fatimaaziz27)
