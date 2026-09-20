@@ -8,25 +8,6 @@ A modern and responsive travel website designed to showcase destinations, travel
 
 The website provides a travel-focused interface where users can explore popular destinations, view travel packages, read customer reviews, learn about the travel service, and find booking information.
 
-
-
-
-### Why Choose Us
-
-Highlights the main reasons customers can choose the travel service, including planning, pricing, trust, and support.
-
-### Reviews
-
-Displays customer reviews to provide feedback and travel experiences.
-
-### Contact / Booking
-
-Provides a section where users can find booking and contact information.
-
-### Footer
-
-Contains quick navigation links, popular destinations, social links, and copyright information.
-
 ## How to Run
 
 1. Clone or download the repository.
