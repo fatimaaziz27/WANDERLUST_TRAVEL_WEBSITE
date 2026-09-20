@@ -10,10 +10,6 @@ The website provides a travel-focused interface where users can explore popular 
 
 ## Website Sections
 
-### Home
-
-The homepage introduces Wanderlust Travel with a large hero section, navigation menu, travel message, and search area.
-
 ### Destinations
 
 Displays popular destinations with images and information to help users explore different places.
