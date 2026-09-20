@@ -8,18 +8,6 @@ A modern and responsive travel website designed to showcase destinations, travel
 
 The website provides a travel-focused interface where users can explore popular destinations, view travel packages, read customer reviews, learn about the travel service, and find booking information.
 
-## Travel Packages
-
-The website showcases different travel packages with information such as:
-
-* Destination
-* Duration
-* Accommodation
-* Airport transfer
-* Meals
-* Tours and activities
-* Package price
-
 ## Why Choose Us
 
 The website highlights four main services:
