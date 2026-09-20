@@ -8,25 +8,6 @@ A modern and responsive travel website designed to showcase destinations, travel
 
 The website provides a travel-focused interface where users can explore popular destinations, view travel packages, read customer reviews, learn about the travel service, and find booking information.
 
-## Features
-
-* Responsive navigation bar
-* Hero section
-* Travel search section
-* Popular destinations
-* Destination cards
-* Why Choose Us section
-* About section
-* Travel statistics
-* Travel packages
-* Package pricing
-* Special offers
-* Customer reviews
-* Contact / booking section
-* Footer with quick links
-* Responsive layout
-* Travel-focused visual design
-
 ## Popular Destinations
 
 The website includes popular destinations such as:
