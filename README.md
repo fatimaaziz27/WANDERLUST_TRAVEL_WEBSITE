@@ -8,18 +8,6 @@ A modern and responsive travel website designed to showcase destinations, travel
 
 The website provides a travel-focused interface where users can explore popular destinations, view travel packages, read customer reviews, learn about the travel service, and find booking information.
 
-## Project Structure
-
-```text
-WANDERLUST_TRAVEL_WEBSITE/
-│
-├── index.html
-├── styles.css
-├── images/
-│
-└── README.md
-```
-
 ## Website Sections
 
 ### Home
