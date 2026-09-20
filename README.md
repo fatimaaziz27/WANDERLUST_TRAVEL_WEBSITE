@@ -8,15 +8,6 @@ A modern and responsive travel website designed to showcase destinations, travel
 
 The website provides a travel-focused interface where users can explore popular destinations, view travel packages, read customer reviews, learn about the travel service, and find booking information.
 
-## Why Choose Us
-
-The website highlights four main services:
-
-* Expert Planning
-* Best Price
-* Trusted Service
-* 24/7 Support
-
 ## Technologies Used
 
 * HTML5
